@@ -9,12 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet var numTextField1: UITextField!
-    @IBOutlet var numTextField2: UITextField!
-    @IBOutlet var numTextField3: UITextField!
-    @IBOutlet var numTextField4: UITextField!
-    @IBOutlet var numTextField5: UITextField!
-    @IBOutlet var resultLabel: UILabel!
+    //アクセスレベルをprivateにする
+    @IBOutlet private var numTextField1: UITextField!
+    @IBOutlet private var numTextField2: UITextField!
+    @IBOutlet private var numTextField3: UITextField!
+    @IBOutlet private var numTextField4: UITextField!
+    @IBOutlet private var numTextField5: UITextField!
+    @IBOutlet private var resultLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         
